@@ -1,12 +1,30 @@
 /* Body */
 
 html {
-  /* background-color: rgb(37, 36, 36); */
+  background-color: rgba(39, 39, 102, 0.918);
 }
 
+/* Header */
+header {
+  display:block;
+  position: relative;
+  text-align: center;
+}
+
+/* Nav */
+nav {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+a {
+  font-size: 24px;
+  color: black !important;
+}
 
 /* Navbar */
-
+/* 
 .navbar {
     position: relative;
     text-align: center;
@@ -17,16 +35,16 @@ html {
   .navbar-brand {
     font-size: 24px;
     /* color: white !important; */
-  }
+  /* }
   
 .nav-link {
-  font-size: 18px;
+  font-size: 18px; */
   /* color: white !important; */
-}
+/* }  */
 
   /* Jumbrotron */
 
-  .jumbotron {
+  /* .jumbotron {
     background-image: url("https://wallpapercave.com/wp/wp2783998.jpg");
     background-size: 60% 120%;
     background-repeat: no-repeat;
@@ -35,4 +53,31 @@ html {
 
   .display-4 {
     color: black;
+  } */
+
+  /* Footer */
+  .copyright {
+    height: 40px;
+    text-align: center;
+    background-color: rgba(39, 39, 102, 0.918);
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin: 0 0 40px;
+  }
+  
+  .footertext{
+     position: relative;
+     bottom: -5px;
   }
